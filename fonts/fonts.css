@@ -1,0 +1,14 @@
+@font-face {
+    font-family: HelveticaNeue; /* Имя шрифта */
+    src: url(HelveticaNeue/HelveticaNeue.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: HelveticaNeue-Bold; /* Имя шрифта */
+    src: url(HelveticaNeue-Bold/HelveticaNeue-Bold.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: HelveticaNeue-Medium; /* Имя шрифта */
+    src: url(HelveticaNeue-Medium/HelveticaNeue-Medium.ttf); /* Путь к файлу со шрифтом */
+}
