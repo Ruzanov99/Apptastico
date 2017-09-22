@@ -86,8 +86,4 @@ $(document).ready(function(){
     	}
     ]
 });
-	$( ".button-bars" ).click(function() {
-		$( ".navigation" ).slideToggle(1000, function() {
-		});
-	});
 });
