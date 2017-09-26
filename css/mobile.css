@@ -44,7 +44,10 @@
         margin-right: 0px;
     }
 
-
+    div.our-services div.container div.our-activity {
+        padding-top: 125px;
+        padding-bottom: 94px;
+    }
 
     header div.container nav ul li {
     	display: block;
@@ -79,46 +82,46 @@
 		text-decoration-line: underline;
 	}
 
-     main div.our-services {
+    div.our-services {
         text-align: center;
      }
 
-    main div.our-services div.container div.inner-wrapper{
+    div.our-services div.container{
         display: inline-block;
     }
 
-    main div.our-services div.container div.inner-wrapper img {
+    div.our-services div.container img {
     	display: none;
     }
 
-    main div.our-services div.container {
+    div.our-services div.container {
     	min-height: auto;
     }
 
-    main div.our-services div.container div.inner-wrapper div.our-activity button {
+    div.our-services div.container div.our-activity button {
     	display: inline-block;
         text-align: center;
     }
 
-    main div.our-services div.container div.inner-wrapper div.our-activity button + p {
+    div.our-services div.container div.our-activity button + p {
         display: block;
     }
 
-     main div.our-services div.container div.inner-wrapper div.our-activity button + p > span {
+    div.our-services div.container div.our-activity button + p > span {
         display: block;
         margin-bottom: 20px;
      }
 
-     main div.partners div.container ul.slider-partners li {
+    div.partners div.container ul.slider-partners li {
         padding-right: 0;
      }
 
-     div.our-services div.container div.inner-wrapper div.our-activity {
+     div.our-services div.container div.our-activity {
         float: none;
         padding-bottom: 125px;
      }
 
-     main section.our-advantages div.container div.advantages-item {
+    section.our-advantages div.container div.advantages-item {
         display: block;
         max-width: none;
      }
@@ -132,26 +135,26 @@
         padding-left: 15px;
      }
     
-    main section.our-advantages {
+    section.our-advantages {
         text-align: center;
      }
 
-     main section.our-advantages div.container div.advantages-item {
+    section.our-advantages div.container div.advantages-item {
         display: inline-block;
         width: 100%;
         max-width: 400px;
         margin-top: 95px;
      }
 
-     main section.our-advantages div.container div.advantages-item:first-child div.description:after {
+    section.our-advantages div.container div.row div.col-xs-12:first-child div.advantages-item div.description:after {
        box-shadow: inset 2px -26px 35px -15px rgba(246,246,246,1);
      }
 
-     main section.our-advantages div.container div.advantages-item:nth-child(2) div.description:after {
+    section.our-advantages div.container div.row div.col-xs-12:nth-child(2) div.advantages-item div.description:after {
        box-shadow: inset 2px -26px 35px -15px rgba(250,250,250,1);
      }
 
-     main div.partners div.container ul.slider-partners * li {
+    div.partners div.container ul.slider-partners * li {
         width: auto;
      }
 
@@ -159,7 +162,7 @@
         width: none;
      }
 
-    main div.post-social div.container div.our-blog {
+    div.post-social div.container div.our-blog {
         float: none;
         display: block;
         text-align: center;
@@ -167,13 +170,13 @@
 
     }
 
-    main div.post-social div.container div.our-blog div.blog {
+    div.post-social div.container div.our-blog div.blog {
         display: inline-block;
         padding-left: 0px;
     }
 
 
-    main div.post-social div.container div.our-twitter {
+    div.post-social div.container div.our-twitter {
         margin-top: 60px;
         float: none;
         display: block;
@@ -181,20 +184,31 @@
         max-width: 100% !important;
     }
 
-    main div.post-social div.container div.our-twitter div.tweet p{
+    div.post-social div.container div.our-twitter div.tweet p{
         display: block;
         max-width: 50%;
         margin: 0 auto;
     }
 
-    main div.post-social div.container div.our-blog div.blog img {
+    div.post-social div.container div.our-blog div.blog img {
         display: none;
     }
 
-    main section.our-advantages {
+    section.our-advantages {
         padding-top: 0;
     }
 
+    div.our-services div.container div.our-activity button {
+        width: 200px!important;
+    }
+
+    .row {
+        margin: 0px;
+    }
+
+    footer div.container div.row div.col-xs-12:last-child ul.our-social li a span {
+        font-size: 32px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -202,54 +216,53 @@
         float: right;
     }
 
-    main div.our-services div.container div.inner-wrapper img {
-        width: 40%;
-    }
-
-    main div.our-services div.container div.inner-wrapper div.our-activity {
-        width: 57%;
-    }
-
-    main section.our-advantages {
+    section.our-advantages {
         text-align: center;
-     }
+    }
+}
 
-     main section.our-advantages div.container div.advantages-item {
-        display: inline-block;
-        width: 33%;
-     }
+@media (max-width: 992px) {
+    .wrapper-img {
+        min-height: 537px;
+    }
+
+    div.our-services div.container div.our-activity h1 {
+        font-size: 36px;
+    }
+
+    div.our-services div.container div.our-activity button {
+        width: 145px;
+    }
+}
+
+@media (min-width: 992px) {
+    div.our-services div.container div.our-activity button {
+        width: 200px;
+    }
 }
     
 
 @media (min-width: 1024px) {
-    main div.partners div.container ul.slider-partners li.slick-slide {
-        width: 228px !important;
+    div.partners div.container ul.slider-partners li.slick-slide {
+        width: 215px !important;
     }
 
-    main div.partners div.container ul.slider-partners li.slick-slide:nth-child(5) {
+    div.partners div.container ul.slider-partners li.slick-slide:nth-child(5) {
         width: 0 !important;
     }
 }
 
 @media (max-width: 1023px) {
-    main div.partners div.container ul.slider-partners li {
+    div.partners div.container ul.slider-partners li {
         text-align: center;
     }
 
-    main div.our-works div.container ul.slider-works li {
+    div.our-works div.container ul.slider-works li {
         text-align: center;
     }
 
-    main div.our-works div.container ul.slider-works li a img {
+    div.our-works div.container ul.slider-works li a img {
         width: 100% !important;
         display: block;
-    }
-
-    main div.post-social div.container div.our-blog {
-        max-width: 50%;
-    }
-
-    main div.post-social div.container div.our-twitter {
-        max-width: 45%;
     }
 } 

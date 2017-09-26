@@ -1,4 +1,4 @@
-/*Слайдер работ*/
+/*Слайдер партнеров*/
 $(document).ready(function(){
 	$('.slider-partners').slick({
 	  dots: false,
