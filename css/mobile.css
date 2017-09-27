@@ -118,7 +118,7 @@
 
      div.our-services div.container div.our-activity {
         float: none;
-        padding-bottom: 125px;
+        padding-bottom: 70px;
      }
 
     section.our-advantages div.container div.advantages-item {
@@ -162,7 +162,7 @@
         width: none;
      }
 
-    div.post-social div.container div.our-blog {
+    div.post-social div.container {
         float: none;
         display: block;
         text-align: center;
@@ -170,27 +170,29 @@
 
     }
 
-    div.post-social div.container div.our-blog div.blog {
+    div.post-social div.container div.blog {
         display: inline-block;
         padding-left: 0px;
     }
 
-
     div.post-social div.container div.our-twitter {
-        margin-top: 60px;
-        float: none;
-        display: block;
         text-align: center;
-        max-width: 100% !important;
+        float: none;
+        max-width: none;
+    }
+
+    div.post-social div.container div.our-twitter div.tweet {
+        display: inline-block;
+        float: none;
+        max-width: 480px;
     }
 
     div.post-social div.container div.our-twitter div.tweet p{
         display: block;
-        max-width: 50%;
-        margin: 0 auto;
+        text-align: center;
     }
 
-    div.post-social div.container div.our-blog div.blog img {
+    div.post-social div.container div.blog img {
         display: none;
     }
 
@@ -209,6 +211,34 @@
     footer div.container div.row div.col-xs-12:last-child ul.our-social li a span {
         font-size: 32px;
     }
+
+    footer div.container div.row div.col-xs-12:first-child {
+        text-align: center;
+    }
+
+    footer div.container div.row div.col-xs-12:last-child {
+        text-align: center;
+    }
+
+    footer div.container div.row div.col-xs-12:last-child ul.our-social {
+        float: none;
+    }
+
+    footer div.container div.row div.col-xs-12:last-child {
+        margin: 0 auto;    
+    }
+
+    header .navbar-brand {
+        margin-top: 18px;
+    }
+
+    .our-blog {
+        display: inline-block;
+    }
+
+    .slick-slide {
+        float: none;
+    }
 }
 
 @media (min-width: 768px) {
@@ -223,7 +253,7 @@
 
 @media (max-width: 992px) {
     .wrapper-img {
-        min-height: 537px;
+        min-height: 482px;
     }
 
     div.our-services div.container div.our-activity h1 {
@@ -232,6 +262,10 @@
 
     div.our-services div.container div.our-activity button {
         width: 145px;
+    }
+
+    div.our-services div.container div.our-activity {
+        padding-top: 70px;
     }
 }
 

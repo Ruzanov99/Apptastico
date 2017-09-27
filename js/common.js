@@ -39,8 +39,8 @@ $(document).ready(function(){
 });
 	$('.slider-works').slick({
   		arrows: true,
-  		nextArrow: '<span class="fa fa-chevron-circle-right" aria-hidden="true"></span>',
-        prevArrow: '<span class="fa fa-chevron-circle-left" aria-hidden="true"></span>',
+  		nextArrow: '<span class="fa fa-chevron-right" aria-hidden="true"></span>',
+        prevArrow: '<span class="fa fa-chevron-left" aria-hidden="true"></span>',
   		infinite: true,
   		slidesToShow: 4,
   		slidesToScroll: 4,
@@ -86,4 +86,14 @@ $(document).ready(function(){
     	}
     ]
 });
+	$('.slider-blog').slick({
+		dots: false,
+		Arrow: true,
+		nextArrow: $('.next'), /*Своя кнопка перелистывания слайдеров*/
+		prevArrow: false,
+  		vertical: true,
+  		verticalSwiping: true,
+  		slidesToShow: 2,
+  		slidesToScroll: 1
+	});
 });
